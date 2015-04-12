@@ -12,7 +12,7 @@ var port = process.env.PORT || 3000;
 
 // connect to our mondgoDB
 // uncomment after configuring db
-mongoose.connect(db.url);
+//mongoose.connect(db.url);
 
 // get all data/stuff of the body (POST) parameters
 // parse application/json
